@@ -1,12 +1,12 @@
 # YouTrack Project & Task Management System
 
-> Self-hosted containerized issue tracking and project management platform for homelab infrastructure management and personal productivity
-
-![Dashboard](https://github.com/ayedrianp/YouTrack-Project-Management/blob/main/Project%20Folder/Dashboard%20Screenshot.png)
-
-##  Project Overview
+##  Project Overview & Objective
 
 Deployed JetBrains YouTrack on Alpine Linux using Docker to create a lightweight centralized system for project tracking, task management, infrastructure maintenance, and incident resolution across my homelab environment. Using Tailscale to access remotely from my devices.
+
+Self-hosted containerized issue tracking and project management platform for homelab infrastructure management and personal productivity
+
+![Dashboard](https://github.com/ayedrianp/YouTrack-Project-Management/blob/main/Project%20Folder/Dashboard%20Screenshot.png)
 
 ##  Skills Demonstrated
 
