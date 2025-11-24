@@ -4,11 +4,11 @@
 
 ![Dashboard](https://github.com/ayedrianp/YouTrack-Project-Management/blob/main/Project%20Folder/Dashboard%20Screenshot.png)
 
-## 🎯 Project Overview
+##  Project Overview
 
 Deployed JetBrains YouTrack on Alpine Linux using Docker to create a lightweight centralized system for project tracking, task management, infrastructure maintenance, and incident resolution across my homelab environment. Using Tailscale to access remotely from my devices.
 
-## 💼 Skills Demonstrated
+##  Skills Demonstrated
 
 - **Containerization**: Docker, Docker Compose
 - **Linux Administration**: Alpine Linux, system services, file permissions
@@ -17,7 +17,7 @@ Deployed JetBrains YouTrack on Alpine Linux using Docker to create a lightweight
 - **Project Management**: Agile workflows, sprint planning, issue tracking
 - **ITSM**: Incident management, change control, problem tracking
 
-## 🏗️ Architecture
+##  Architecture
 ```
 Router
   │
@@ -31,12 +31,12 @@ Router
   └─── Tailscale (Remote Access)
 ```
 
-## ❌ Current Issues: 
+##  Current Issues: 
 - Port listening not available for 8443 despite enabled in config.
 	- Will explore at a later date. Tailscale used for ZT access.  	 
 
 
-## 📋 Use Cases
+##  Use Cases
 
 ### Project Management
 - Track homelab infrastructure projects in one tidy space.
@@ -61,7 +61,7 @@ Router
 - Monitor service health
 - Document configuration changes
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component            | Technology                                |
 | -------------------- | ----------------------------------------- |
@@ -73,13 +73,13 @@ Router
 | **Ports**            | 8080 (HTTP), 8443 (HTTPS)                 |
 | Mesh VPN             | Tailscale                                 |
 
-## 📚 Documentation
+##  Documentation
 
 - [Installation Guide](docs/installation.md) - Complete setup instructions
 - [Configuration Guide](docs/configuration.md) - Workflow and customization
 - [Troubleshooting](docs/troubleshooting.md) - Common issues and solutions
 
-## 🖼️ Screenshots
+##  Screenshots
 
 ## Project List
 
@@ -88,14 +88,14 @@ Router
 ## Project Knowledge Base
 
 ![KB Screenshot](https://github.com/ayedrianp/YouTrack-Project-Management/blob/main/Project%20Folder/KB%20Screenshot.png)
-## 🔐 Security Features
+##  Security Features
 
 - Zero-trust remote access via Tailscale
 - Container isolation
 - Proper file permissions (UID-based)
 - Automated backups
 
-## 📊 Key Metrics
+##  Key Metrics
 
 - **Deployment Time**: ~30 minutes
 - **Resource Usage**: 2 vCPU, 2GB RAM, 20GB storage
@@ -103,7 +103,7 @@ Router
 - **Backup Frequency**: Daily automated backups
 
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Email notifications for critical tasks
 - [ ] API automation for script-based ticket creation
@@ -117,7 +117,7 @@ Router
 - [Alpine Linux Wiki](https://wiki.alpinelinux.org/)
 - [Tailscale Documentation](https://tailscale.com/kb/)
 
-## 🤝 Other Projects
+##  Other Projects
 
 - [Wazuh-Suricata Integration Lab](../wazuh-suricata-integration-lab) - Security monitoring
 
